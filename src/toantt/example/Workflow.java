@@ -4,6 +4,8 @@ import java.util.Date;
 
 /*
  * @author: toantt
+ * -A
+ * -B
  */
 public class Workflow {
 	private Long id;
@@ -13,10 +15,10 @@ public class Workflow {
 	private Workflow link;
 
 	private Date start;
+	
+	private Date end;
 
 	private boolean status;
-
-	private Date end;
 
 	//get id
 	public Long getId() {
