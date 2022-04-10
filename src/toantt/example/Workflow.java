@@ -71,8 +71,7 @@ public class Workflow {
 	 * This is a function to find a workflow by id
 	 */
 	private Workflow findWorkById(Long id) {
-		
-		return null;
+		return this.getId().equals(id) ? this : null
 	}
 	
 	/*
