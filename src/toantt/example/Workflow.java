@@ -4,8 +4,8 @@ import java.util.Date;
 
 /*
  * @author: toantt
- * -A
- * -B
+ * D1
+ * D2
  */
 public class Workflow {
 	private Long id;
@@ -15,7 +15,13 @@ public class Workflow {
 	private Workflow link;
 
 	private Date start;
-	
+
+	private boolean status;
+
+
+
+
+
 	private Date end;
 
 	private boolean status;
@@ -80,6 +86,15 @@ public class Workflow {
 	 * This is a function to find a workflow by name
 	 */
 	private Workflow findWorkByName(String name) {
+		//dsadsadsadsdsad
+		//đâ
+		return null;
+	}
+
+	/*
+	 * This is a function to find a workflow by name
+	 */
+	private Workflow findWorkByName2(String name) {
 		//dsadsadsadsdsad
 		//đâ
 		return null;
