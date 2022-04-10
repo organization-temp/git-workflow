@@ -2,14 +2,21 @@ package toantt.example;
 
 import java.util.Date;
 
-//add note class name
+/*
+ * @author: toantt
+ */
 public class Workflow {
 	private Long id;
+
 	private String name;
-	private boolean status;
-	private Date start;
-	private Date end;
+
 	private Workflow link;
+
+	private Date start;
+
+	private boolean status;
+
+	private Date end;
 
 	//get id
 	public Long getId() {
