@@ -10,6 +10,9 @@ public class Workflow {
 	private Date end;
 	private Workflow link;
 
+	/*
+		add id
+	 */
 	public Long getId() {
 		return id;
 	}
