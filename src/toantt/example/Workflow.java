@@ -2,11 +2,14 @@ package toantt.example;
 
 import java.util.Date;
 
+//add note class name
 public class Workflow {
 	private Long id;
 	private String name;
 	private boolean status;
 	private Date start;
+	private Date end;
+	private Workflow link;
 
 	//get id
 	public Long getId() {
@@ -32,9 +35,6 @@ public class Workflow {
 	public void setEnd(Date end) {
 		this.end = end;
 	}
-
-	private Date end;
-	private Workflow link;
 
 	public String getName() {
 		return name;
@@ -64,8 +64,7 @@ public class Workflow {
 	 * This is a function to find a workflow by id
 	 */
 	private Workflow findWorkById(Long id) {
-		
-		return null;
+		return this.getId().equals(id) ? this : null
 	}
 	
 	/*
