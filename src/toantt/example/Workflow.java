@@ -24,6 +24,8 @@ public class Workflow {
 
 	private Date end;
 
+	private boolean status;
+
 	//get id
 	public Long getId() {
 		return id;
