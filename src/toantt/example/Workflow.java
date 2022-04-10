@@ -8,6 +8,7 @@ public class Workflow {
 	private boolean status;
 	private Date start;
 
+	//get id
 	public Long getId() {
 		return id;
 	}
